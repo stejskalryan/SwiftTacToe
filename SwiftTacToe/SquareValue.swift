@@ -7,6 +7,7 @@
 
 import Foundation
 
+// The value of one square on the Tic Tac Toe board.
 enum SquareValue {
     case X
     case O
