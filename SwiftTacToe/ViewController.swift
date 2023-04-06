@@ -22,6 +22,7 @@ class ViewController: NSViewController {
     var squares: [NSButton] = []
     var squareValues: [SquareValue] = []
     var turn = SquareValue.X
+    var won = false
     
     override func viewDidLoad() {
         super.viewDidLoad()
